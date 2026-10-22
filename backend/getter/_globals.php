@@ -2,5 +2,7 @@
 
 // todo: Hier die Getter für die Globalen Informationen definieren
 function get_globals_log () {
-   js_log('get logo');
+    $logo_id = carbon_get_theme_option('logo');
+    $logo = get_media_by_id($logo_id,);
+    return $logo;
 }
