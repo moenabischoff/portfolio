@@ -98,7 +98,9 @@
     width: 100%;
     height: 100%;
 }
+[data-page="project"] {
 
+}
 /* Styling of all available module components. */
 [data-module] {
     overflow: clip;
